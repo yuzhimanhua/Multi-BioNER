@@ -1,0 +1,4 @@
+python3 train_wc.py --train_file data_bioner_5/BC2GM-IOBES/merge.tsv data_bioner_5/BC4CHEMD-IOBES/merge.tsv data_bioner_5/BC5CDR-IOBES/merge.tsv data_bioner_5/NCBI-disease-IOBES/merge.tsv data_bioner_5/JNLPBA-IOBES/merge.tsv \
+                    --dev_file data_bioner_5/BC2GM-IOBES/devel.tsv data_bioner_5/BC4CHEMD-IOBES/devel.tsv data_bioner_5/BC5CDR-IOBES/devel.tsv data_bioner_5/NCBI-disease-IOBES/devel.tsv data_bioner_5/JNLPBA-IOBES/devel.tsv \
+                    --test_file data_bioner_5/BC2GM-IOBES/test.tsv data_bioner_5/BC4CHEMD-IOBES/test.tsv data_bioner_5/BC5CDR-IOBES/test.tsv data_bioner_5/NCBI-disease-IOBES/test.tsv data_bioner_5/JNLPBA-IOBES/test.tsv \
+                    --caseless --fine_tune --emb_file data_bioner_5/wikipedia-pubmed-and-PMC-w2v.txt --word_dim 200 --gpu 0 --shrink_embedding --patience 30 --epoch 500
