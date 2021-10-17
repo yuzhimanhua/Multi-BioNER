@@ -16,7 +16,7 @@ The implementation is based on the PyTorch library. Our model collectively train
 
 ## Installation
 
-For training, a GPU is strongly recommended for speed. CPU is supported but training could be extremely slow.
+For training, a GPU is strongly recommended.
 
 #### PyTorch
 
@@ -28,6 +28,7 @@ The code is written in Python 3.6. Its dependencies are summarized in the file `
 ```
 pip3 install -r requirements.txt
 ```
+**Note: torch==0.3.1 and CUDA 10.1 were used during development. If your torch version is 0.4.0 or higher, the code may not work.**
 
 ## Quick Start
 
