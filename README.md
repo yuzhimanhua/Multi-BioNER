@@ -28,7 +28,7 @@ The code is written in Python 3.6. Its dependencies are summarized in the file `
 ```
 pip3 install -r requirements.txt
 ```
-**Note: PyTorch 0.3.1 and CUDA 10.1 were used during development. If your PyTorch version is 0.4.0 or higher, the code may not work.**
+**Note: PyTorch 0.3.1 and CUDA 9.0 were used during development. If your PyTorch version is 0.4.0 or higher, the code may not work.**
 
 ## Quick Start
 
