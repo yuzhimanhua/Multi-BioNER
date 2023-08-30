@@ -199,7 +199,7 @@ factor O
 ```
 
 ## Citation
-If you find the implementation useful, please cite the following paper:
+If you find this repository useful, please cite the following paper:
 ```
 @article{wang2018cross,
   title={Cross-type biomedical named entity recognition with deep multi-task learning},
