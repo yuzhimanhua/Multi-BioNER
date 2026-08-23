@@ -747,7 +747,7 @@ def fill_y(nc, yidx):
     """
     batchsz = yidx.shape[0]
     siglen = yidx.shape[1]
-    dense = np.zeros((batchsz, siglen, nc), dtype=np.int)
+    dense = np.zeros((batchsz, siglen, nc), dtype=int)
     for i in range(batchsz):
         for j in range(siglen):
             idx = int(yidx[i, j])
